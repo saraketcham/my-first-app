@@ -3,7 +3,7 @@ function BasicText({myText}){
 
     return (
         <div >
-            <div className="m-6 p-3 bg-blue-500">
+            <div className="m-6 p-3 ">
             <p className=" text-xl font-bold border" > {myText}</p>
             </div>
       
