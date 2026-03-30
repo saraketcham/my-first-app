@@ -1,9 +1,9 @@
-function ProfilePic({myPic}){
+function ProfilePic({picEmoji}){
 
 
     return (
         <div className="m-6 border p-3 ">
-            <img src={myPic} alt="picture here!" />
+            <span className="text-5xl"> {picEmoji} </span>
         </div>
           
     )

@@ -5,15 +5,15 @@ import BasicText from "../BasicText"
 function Home() {
   return (
   <>
-     <Blockquote quote="making progress and getting better every day" />
+     <Blockquote quote="making progress and getting better every day!!!!!" />
 
       <div className="grid grid-cols-3 gap-4">
         <TaskCard task="do the laundry"></TaskCard>
-        <TaskCard task="take out the trash"></TaskCard>
+        <TaskCard task="change poopy diaper"></TaskCard>
         <TaskCard task="add a new task" />
       </div>
 
-      <BasicText myText="Youve completed 15 task this week!" />
+      <BasicText myText="You've completed 15 tasks this week!" />
 </>
 )}
 
