@@ -8,9 +8,9 @@ function Home() {
      <Blockquote quote="making progress and getting better every day!!!!!" />
 
       <div className="grid grid-cols-3 gap-4">
-        <TaskCard task="do the laundry"></TaskCard>
-        <TaskCard task="change poopy diaper"></TaskCard>
-        <TaskCard task="add a new task" />
+        <TaskCard myTask="do the laundry"></TaskCard>
+        <TaskCard myTask="change poopy diaper"></TaskCard>
+        <TaskCard myTask="add a new task" />
       </div>
 
       <BasicText myText="You've completed 15 tasks this week!" />
