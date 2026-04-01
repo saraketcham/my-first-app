@@ -13,7 +13,7 @@ function App() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <>
-    <BrowserRouter>
+    <BrowserRouter basename="/my-first-app/">
       <nav className="flex justify-between items-center">
         <h1>ToDoAble</h1>
 
