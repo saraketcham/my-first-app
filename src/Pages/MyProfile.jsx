@@ -3,24 +3,28 @@ import ProfilePic from "../ProfilePic"
 import Header from "../Header"
 import TextWithHeader from "../TextWithHeader"
 import MyButton from "../Button"
+import MyList from "../MyList"
 
 function Profile() {
   return (
   <>
     <div className="grid grid-cols-2 gap-4">
         <ProfilePic myPic={Darcie} />
-        <Header title="My profile" subtitle="The procrasti-cleaner" />
+    
+        <div>
+         <Header title="My profile" subtitle="The procrasti-cleaner" />
+         <MyList 
+        title="My stats"
+        thing1 = "5 tasks completed today"
+        thing2 = "10 tasks completed this week"
+        thing3 = " 3 recurring tasks already done"
+      />
+
       </div>
 
-      <TextWithHeader 
-        mySubtitle="My stats"
-        myText="Success looks like... "
-      />
-      <ul className="border rounded ">
-        <li> 5 tasks completed today</li>
-        <li> 10 tasks completed this week</li>
-        <li> 3 recurring tasks already done</li>
-      </ul>
+</div>
+     
+ 
 
       <TextWithHeader
         mySubtitle="my goals"
